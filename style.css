@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.outputLiStyle{
+    @apply bg-[#69595f] font-semibold p-4 rounded-md shadow flex flex-col
+}
+.otherOutputLiStyle:nth-child(odd){
+    @apply bg-[#69595f] font-semibold px-4 py-1 rounded-md drop-shadow
+}
+.otherOutputLiStyle:nth-child(even){
+    @apply bg-[#b7a9b1] text-[#69595f] font-semibold px-4  py-1 rounded-md drop-shadow
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#dde0f1]">
+    <div class=" absolute left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%] w-[90%] sm:w-[40%]">
+        <div class="bg-[#69595f] p-6 rounded-md flex flex-col gap-3 shadow">
+            <input class="rounded-md px-2 py-3 bg-[#dde0f1] font-semibold text-[#69595f] text-sm transition-all shadow" type="date" id="dobInput">
+            <button class="bg-[#9a848b] py-1 mt-2 w-[40%] mx-auto rounded-md shadow font-semibold text-[#dde0f1] md:text-lg md:py-2 hover:bg-[#dde0f1] hover:text-[#9a848b] active:bg-[#72696d] transition-all" id="btnCal">Calculate</button>
+        </div>
+            <ol class="grid grid-flow-row grid-cols-3 gap-2 text-center items-center text-[#b7a9b1] mt-6 md:text-xl">
+                <li class="outputLiStyle"><span></span><span>Year</span></li>
+                <li class="outputLiStyle"><span></span><span>Month</span></li>
+                <li class="outputLiStyle"><span></span><span>Day</span></li>
+            </ol>
+            <ol class="grid grid-flow-row gap-2 text-start items-center text-[#b7a9b1] mt-6 md:text-xl">
+                <li class="otherOutputLiStyle">months</li>
+                <li class="otherOutputLiStyle">weeks</li>
+                <li class="otherOutputLiStyle">days</li>
+                <li class="otherOutputLiStyle">hours</li>
+                <li class="otherOutputLiStyle">min</li>
+                <li class="otherOutputLiStyle">sec</li>
+            </ol>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
